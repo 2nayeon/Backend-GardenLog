@@ -67,4 +67,4 @@ Backend-GardenLog/
 ---
 
 ## 📂 프로젝트 결과물 확인
-* 📄 **결과보고서:** [GardenLog 결과보고서.pdf](./docs/GardenLog 결과보고서.pdf)
+* 📄 **결과보고서:** [GardenLog 결과보고서.pdf](./docs/GardenLog%20결과보고서.pdf)
