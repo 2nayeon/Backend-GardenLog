@@ -10,27 +10,6 @@ Eclipse 환경에서 Java Servlet과 JSP를 활용하여 웹 서비스를 구축
 - **프로젝트 기간**: 2025.11 ~ 2025.12 (약 6주)
 <br>
 
-## 📂 폴더 구조 (Project Structure)
-```text
-Backend-GardenLog/
-├── src/
-│   └── com/
-│       └── garden/
-│           └── gardenlog/
-│               ├── controller/      # Servlet (요청 처리 및 흐름 제어)
-│               ├── dao/             # Data Access Object (DB 접근 로직)
-│               ├── dto/             # Data Transfer Object (데이터 객체)
-│               └── util/            # DB Connection 등 공통 유틸리티
-├── WebContent/
-│   ├── WEB-INF/
-│   │   ├── lib/                     # JDBC Driver 및 외부 라이브러리
-│   │   └── web.xml                  # 서블릿 매핑 및 프로젝트 설정
-│   ├── css/                         # 스타일시트 파일
-│   ├── js/                          # 자바스크립트 파일
-│   └── views/                       # JSP 파일 (화면 구성)
-└── README.md
-```
-
 ## 1. 개발 목표 및 특징
 - **Servlet 기반 웹 아키텍처:** MVC 패턴을 적용하여 서블릿(Controller), 자바빈즈(Model), JSP(View)를 분리한 구조 설계.
 - **동적 웹 페이지 구현:** 사용자 요청에 따라 식물 데이터 및 성장 일기를 실시간으로 처리하여 화면에 출력.
